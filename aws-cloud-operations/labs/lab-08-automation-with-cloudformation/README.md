@@ -5,7 +5,8 @@
 ## Goal
 Describe infrastructure in a template and let CloudFormation build, change and delete it. I deployed a VPC from a template, added an S3 bucket and an EC2 instance by editing the template, and then deleted everything by deleting the stack.
 
-**Proof:** Step-by-step screenshots in the `screenshots` folder, and the template changes in the section below.
+## Proof 
+CLI commands and real output in [commands.sh](commands.sh), and step-by-step screenshots in the `screenshots` folder.
 
 ## Steps
 1. **Read the template:** Opened `task1.yaml` in a text editor and identified its three sections: Parameters (the CIDR ranges for the VPC and subnet), Resources (the VPC, subnet, route table and security group) and Outputs (the default security group of the VPC).
